@@ -1,6 +1,6 @@
 package com.sudoheader.problems;
 
-public class Main {
+public class SolutionRunner {
     public static void main(String[] args) {
         String unique = "uncopyrightable"; // longest word without duplicate characters
         String palindrome = "racecar";
@@ -10,5 +10,7 @@ public class Main {
         // with bit vector
         System.out.println(IsUnique.isUniqueCharsBitVector(unique)); // should return true
         System.out.println(IsUnique.isUniqueCharsBitVector(palindrome)); // should return true
+
+        System.out.println(CheckPermutation.permutation("abcd", "dcba"));
     }
 }
