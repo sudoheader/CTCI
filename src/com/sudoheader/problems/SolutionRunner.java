@@ -13,5 +13,15 @@ public class SolutionRunner {
 
         System.out.println(CheckPermutation.permutation("abcd", "dcba"));
         System.out.println(IdenticalCharacterCount.permutation("abcd", "dcba"));
+
+        String str = "Mr John Smith    ";
+        char[] ch = new char[str.length()];
+
+        for (int i = 0; i < str.length(); i++) {
+            ch[i] = str.charAt(i);
+        }
+//        char[] ch = {'M', 'r', ' ', 'J', 'o', 'h', 'n', ' ', 'S', 'm', 'i', 't', 'h', ' ', ' ', ' ', ' ' };
+
+        System.out.println(URLify.replaceSpaces(ch, 13));
     }
 }
