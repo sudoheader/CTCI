@@ -12,5 +12,6 @@ public class SolutionRunner {
         System.out.println(IsUnique.isUniqueCharsBitVector(palindrome)); // should return true
 
         System.out.println(CheckPermutation.permutation("abcd", "dcba"));
+        System.out.println(IdenticalCharacterCount.permutation("abcd", "dcba"));
     }
 }
